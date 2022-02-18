@@ -1,3 +1,4 @@
+import React from 'react';
 import TicTacToe from './components/tictactoe/tictactoe';
 
 function App() {
