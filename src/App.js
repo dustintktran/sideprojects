@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       tic tac tooooe
       hello dustin
+      hello paul
       <TicTacToe />
     </div>
   );
