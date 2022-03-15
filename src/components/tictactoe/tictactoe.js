@@ -69,7 +69,7 @@ const TicTacToe = () => {
       {
         board.map((item, index) => {
           return (
-            <div>
+            <div className="tic-tac-block">
               <Block index={index} handleClick={handleClick} state={board[index]}/>
             </div>
           )

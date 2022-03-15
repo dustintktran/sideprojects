@@ -4,7 +4,7 @@ const Block = (props) => {
 
 
   return (
-    <div className='block'>
+    <div>
       {props.state=='' && <button onClick={() => {props.handleClick(props.index)}}>Le Clicko</button>}
       {props.state}
     </div>
